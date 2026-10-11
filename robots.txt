@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://book.salimheyaime.com/sitemap.xml
+Sitemap: https://book.coachsalimheyaime.com/sitemap.xml
