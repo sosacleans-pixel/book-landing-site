@@ -55,3 +55,14 @@ h1{font-size:clamp(2.6rem,10vw,5rem)}
  .portrait img{width:260px}
 }
 @media (prefers-reduced-motion:reduce){*{transition:none!important;scroll-behavior:auto!important}}
+
+.btn-dark{background:var(--r);color:var(--w);border-color:var(--r)}
+.btn-dark:hover{background:var(--c);border-color:var(--c);color:var(--y)}
+.try-band .btn-primary{background:var(--y);color:var(--c);border-color:var(--y)}
+.try-band{background:var(--c);color:var(--w);text-align:center;padding:2.75rem 0}
+.try-band h2{color:var(--y);font-size:clamp(2.2rem,8vw,3.4rem)}
+.try-band p{max-width:560px;margin:0 auto 1.5rem}
+.try-band .eyebrow{color:var(--y)}
+.try-strip{display:block;background:var(--r);color:var(--w);text-align:center;text-decoration:none;font-size:.9rem;padding:.7rem 1rem;line-height:1.35}
+.try-strip strong{text-transform:uppercase;letter-spacing:.05em}
+.try-strip:hover{background:var(--c);color:var(--y)}
