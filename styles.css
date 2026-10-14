@@ -66,3 +66,19 @@ h1{font-size:clamp(2.6rem,10vw,5rem)}
 .try-strip{display:block;background:var(--r);color:var(--w);text-align:center;text-decoration:none;font-size:.9rem;padding:.7rem 1rem;line-height:1.35}
 .try-strip strong{text-transform:uppercase;letter-spacing:.05em}
 .try-strip:hover{background:var(--c);color:var(--y)}
+
+.progress{background:var(--c);color:var(--w);padding:3.5rem 0}
+.progress h2{font-size:clamp(2rem,7vw,3.2rem)}.progress .y{color:var(--y)}
+.progress .eyebrow{color:var(--y)}
+.progress .lede{max-width:640px;font-size:1.1rem;margin:0 0 2rem}
+.ba-pairs{display:grid;gap:2rem}
+.ba-pair{background:#2a2a2a;border-top:6px solid var(--r);padding:1rem;border-radius:6px}
+.ba-row{display:grid;grid-template-columns:1fr 1fr;gap:.6rem}
+.ba-shot{margin:0;position:relative}
+.ba-shot img{width:100%;aspect-ratio:4/5;object-fit:cover;object-position:center top;border-radius:4px}
+.ba-shot figcaption{position:absolute;top:.5rem;left:.5rem;background:var(--y);color:var(--c);font-weight:900;text-transform:uppercase;font-size:.75rem;letter-spacing:.1em;padding:.2rem .55rem;border-radius:3px}
+.ba-shot+.ba-shot figcaption{background:var(--r);color:var(--w)}
+.ba-fact{margin:.9rem 0 0;font-size:1.05rem}.ba-fact strong{color:var(--y)}
+.ba-close{font-weight:700;font-size:1.15rem;margin:2rem 0 .5rem;max-width:640px}
+.ba-note{font-size:.8rem;opacity:.7;margin:0}
+@media(min-width:800px){.ba-pairs{grid-template-columns:1fr 1fr}}
