@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-0BK0TK88WT"></script>
+<script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-0BK0TK88WT');</script>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Claim Your Free App Access | A Challenge to Move</title>
+<meta name="description" content="Bought A Challenge to Move? Claim your free access to the guided 22-day app.">
+<link rel="canonical" href="https://book.coachsalimheyaime.com/claim/">
+<meta name="theme-color" content="#FFC700">
+<meta property="og:title" content="Bought the book? Claim your free app access">
+<meta property="og:description" content="Readers of A Challenge to Move get free access to the guided 22-day app.">
+<meta property="og:url" content="https://book.coachsalimheyaime.com/claim/">
+<meta property="og:image" content="https://book.coachsalimheyaime.com/img/og.jpg">
+<link rel="icon" href="/favicon.ico" sizes="any">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Anton&amp;family=Lato:wght@400;700;900&amp;display=swap">
+<link rel="stylesheet" href="/styles.css">
+<style>
+body{background:var(--y);min-height:100vh;min-height:100dvh}
+.t-wrap{max-width:520px;margin:0 auto;padding:1.25rem 1.25rem calc(2rem + env(safe-area-inset-bottom))}
+.t-top{display:flex;justify-content:space-between;align-items:center;font-weight:900;text-transform:uppercase;letter-spacing:.12em;font-size:.75rem}
+.t-top a{text-decoration:none}
+.screen{display:none}.screen.on{display:block}
+.card{background:var(--w);border:3px solid var(--c);border-radius:18px;padding:1.5rem;box-shadow:0 8px 0 var(--c);margin-top:1rem}
+h1{font-size:clamp(2.4rem,11vw,3.6rem);margin:.75rem 0 .25rem}
+label{display:block;font-weight:900;text-transform:uppercase;letter-spacing:.08em;font-size:.75rem;margin:1rem 0 .35rem}
+input{width:100%;font:inherit;font-size:1.05rem;padding:.85rem 1rem;border:3px solid var(--c);border-radius:12px;background:#fff}
+input:focus{outline:3px solid var(--r);outline-offset:2px}
+.btn{width:100%;cursor:pointer;font-family:inherit}
+.small{font-size:.8rem;color:#444;margin:.75rem 0 0}
+.err{color:var(--r);font-weight:700;min-height:1.4em;margin:.5rem 0 0;font-size:.9rem}
+.claim-cover{width:110px;margin:1rem 0 0;box-shadow:0 10px 24px rgba(0,0,0,.35);border-radius:3px}
+.welcome{background:var(--c);color:var(--w);border-radius:18px;padding:1.75rem 1.5rem;margin-top:1.25rem;text-align:center}
+.welcome h2{color:var(--y);font-size:clamp(2rem,9vw,2.8rem)}
+.welcome .btn-primary{background:var(--y);color:var(--c);border-color:var(--y);font-size:1.15rem;padding:1.25rem 1.5rem}
+.welcome ol{text-align:left;margin:1.25rem 0 0;padding-left:1.25rem}
+.welcome li{margin:.35rem 0}
+.welcome .note{color:#ddd;font-size:.85rem;margin-top:1rem}
+</style>
+</head>
+<body>
+<div class="t-wrap">
+  <div class="t-top"><a href="/">&larr; A Challenge to Move</a><span>Reader access</span></div>
+
+  <section id="gate" class="screen on" aria-labelledby="gate-h">
+    <picture><source srcset="/img/book-cover.webp" type="image/webp"><img class="claim-cover" src="/img/book-cover.jpg" width="625" height="1000" alt="A Challenge to Move book cover"></picture>
+    <p class="eyebrow" style="margin-top:1.25rem">For readers of A Challenge to Move</p>
+    <h1 id="gate-h">Bought the book? Claim your free app access</h1>
+    <p>Your book comes with the guided 22-day challenge in the Coach Salim App. Enter your email and you're in.</p>
+    <form id="claim-form" class="card" novalidate>
+      <label for="fname">First name <span style="font-weight:400;text-transform:none;letter-spacing:0">(optional)</span></label>
+      <input id="fname" name="first_name" autocomplete="given-name" maxlength="60">
+      <label for="email">Email</label>
+      <input id="email" name="email" type="email" inputmode="email" autocomplete="email" required maxlength="254" placeholder="you@example.com">
+      <p class="err" id="err" role="alert"></p>
+      <button class="btn btn-primary" type="submit">Claim my free access &rarr;</button>
+      <p class="small">Use the same email you'll sign in with. By continuing you agree to hear from Coach Salim about the challenge. Unsubscribe anytime.</p>
+    </form>
+    <p class="small" style="margin-top:1.25rem">Don't have the book yet? <a class="text-link" href="https://www.amazon.com/dp/B0FNFB3JMW" rel="noopener">Get it on Amazon</a> or <a class="text-link" href="/try/">try Day 1 free</a>.</p>
+  </section>
+
+  <section id="done" class="screen" aria-labelledby="done-h">
+    <div class="welcome">
+      <h2 id="done-h">Welcome<span id="wname"></span>!</h2>
+      <p>Your 22 days start now. Open the app and sign in with your email.</p>
+      <a class="btn btn-primary" id="go" href="https://app.coachsalimheyaime.com">Open the Coach Salim App &rarr;</a>
+      <ol>
+        <li>Tap the button above.</li>
+        <li>Enter <strong id="wemail">your email</strong>.</li>
+        <li>Check your inbox for the sign-in link and tap it.</li>
+      </ol>
+      <p class="note">No password needed. Bookmark app.coachsalimheyaime.com to come back every day.</p>
+    </div>
+  </section>
+</div>
+<script>
+(function(){
+'use strict';
+var SB_URL='https://olncfwohfpgpmygxjpcm.supabase.co', SB_TABLE='trial_signups';
+var SB_KEY='eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Im9sbmNmd29oZnBncG15Z3hqcGNtIiwicm9sZSI6ImFub24iLCJpYXQiOjE3OTE3MzQ0ODgsImV4cCI6MjEwNzMxMDQ4OH0.rcjQ4E2oPVyth1bboHvwRFqUtwAAAkmUw1TGwF20_Uc';
+var LS='actm.claim';
+function $(id){return document.getElementById(id);}
+function ev(n,p){try{gtag('event',n,p||{});}catch(e){}}
+function store(){try{return JSON.parse(localStorage.getItem(LS))||{};}catch(e){return {};}}
+function save(o){try{localStorage.setItem(LS,JSON.stringify(o));}catch(e){}}
+function esc(s){return s.replace(/[&<>"']/g,function(c){return {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c];});}
+function sendLead(l){return fetch(SB_URL+'/rest/v1/'+SB_TABLE,{method:'POST',headers:{'apikey':SB_KEY,'Authorization':'Bearer '+SB_KEY,'Content-Type':'application/json','Prefer':'return=minimal'},body:JSON.stringify(l),keepalive:true}).then(function(r){return r.ok||r.status===409;}).catch(function(){return false;});}
+function flush(){var st=store();if(!st.pending||!st.pending.length)return;var left=[],p=Promise.resolve();st.pending.forEach(function(l){p=p.then(function(){return sendLead(l).then(function(ok){if(!ok)left.push(l);});});});p.then(function(){var s=store();s.pending=left;save(s);});}
+function welcome(email,fname){$('wname').textContent=fname?', '+fname:'';$('wemail').textContent=email;$('gate').classList.remove('on');$('done').classList.add('on');window.scrollTo(0,0);}
+$('claim-form').addEventListener('submit',function(e){
+  e.preventDefault();
+  var email=$('email').value.trim().toLowerCase(),fname=$('fname').value.trim();
+  if(!/^[^\s@]+@[^\s@]+\.[^\s@]{2,}$/.test(email)){$('err').textContent='Please enter a valid email.';$('email').focus();return;}
+  $('err').textContent='';
+  var lead={email:email,first_name:fname||null,source:'book_claim',page:location.pathname,referrer:document.referrer||null,user_agent:navigator.userAgent.slice(0,300)};
+  var st=store();st.email=email;st.first_name=fname;st.pending=(st.pending||[]).concat([lead]);save(st);
+  flush();
+  ev('book_claim',{method:'email_form'});
+  welcome(email,fname);
+});
+$('go').addEventListener('click',function(){ev('book_claim_open_app');});
+flush();
+})();
+</script>
+</body>
+</html>

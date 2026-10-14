@@ -66,3 +66,7 @@ h1{font-size:clamp(2.6rem,10vw,5rem)}
 .try-strip{display:block;background:var(--r);color:var(--w);text-align:center;text-decoration:none;font-size:.9rem;padding:.7rem 1rem;line-height:1.35}
 .try-strip strong{text-transform:uppercase;letter-spacing:.05em}
 .try-strip:hover{background:var(--c);color:var(--y)}
+.claim-link{font-size:.9rem;font-weight:700;text-align:center;text-decoration:underline;text-underline-offset:3px}
+.claim-link:hover{color:var(--r)}
+.ctas{flex-wrap:wrap}.ctas .claim-link{flex-basis:100%}
+@media(min-width:800px){.hero .ctas .claim-link{text-align:left}}
