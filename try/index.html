@@ -4,6 +4,7 @@
 <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-0BK0TK88WT"></script>
 <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-0BK0TK88WT');</script>
+<script src="/js/ga-events.js" defer></script>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>Try Day 1 Free | 7-Minute Guided Workout, No Equipment</title>
@@ -305,7 +306,6 @@ function confetti(){
   for(var i=0;i<60;i++){var p=document.createElement('i');p.style.left=Math.random()*100+'%';p.style.background=cols[i%4];p.style.animationDelay=Math.random()*1.2+'s';c.appendChild(p);}
   document.body.appendChild(c); setTimeout(function(){c.remove();},4500);
 }
-$('amz').addEventListener('click',function(){ev('amazon_click',{link_url:this.href,location:'trial_end'});});
 $('again').addEventListener('click',function(e){e.preventDefault();elapsed=base=0;cur=-1;fired={};started=false;done=false;$('b-play').textContent='Start';show('player');render();});
 
 // returning visitor: skip the gate if we already have their email
