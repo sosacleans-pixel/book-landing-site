@@ -198,6 +198,7 @@ $('gate-form').addEventListener('submit',function(e){
   var st=store(); st.email=email; st.first_name=fname; st.pending=(st.pending||[]).concat([lead]); save(st);
   flushPending();
   ev('trial_signup',{method:'email_gate'});
+  ev('sign_up',{method:'try_form'}); // standard GA4 event alongside trial_signup; no personal data
   if(fname) $('end-msg').innerHTML='<strong>That\u2019s the seven minutes, '+esc(fname)+'.</strong> You just showed up for yourself, and that\u2019s the whole game. One day down.';
   show('player'); render();
 });
